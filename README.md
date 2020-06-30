@@ -6,4 +6,4 @@ Practice DS - 30 days challenge
 # Branches are named as 'Day-1', 'Day-2' ... 'Day-30'
 
 # Fork this repo, select a branch, write code and raise a PR
-    Each branch will have a .txt file containing the question
+    Each branch will have the question in readme file
