@@ -1,32 +1,19 @@
-import java.util.HashMap;
-
 public class KadaneAlgo {
-    public static void myOwnSol(String[] args) {
-        //find maximum sum subarray in an array
-        int arr[] = {-1,2,3,-4,5,6};
-        int maxSubArray = 0;
+    public static void reKadane() {
+        int a[] = {-1,2,3,-4,5,6};
+        int size = a.length;
+        int max_so_far = Integer.MIN_VALUE, max_ending_here = 0;
 
-        HashMap<Integer, Integer> HM = new HashMap<>();
-
-        for(int ctr = 0; ctr<arr.length; ctr++){
-            if(ctr == 0){
-                HM.put(ctr, arr[ctr]);
-                maxSubArray = arr[ctr];
-            } else {
-                int prevIndexMax = HM.get(ctr -1);
-                int currVal = arr[ctr];
-                int currSum = currVal + prevIndexMax;
-
-                int currMax = Math.max(currVal, Math.max(prevIndexMax, currSum) );
-
-                HM.put(ctr, currMax);
-                if(currMax > maxSubArray){
-                    maxSubArray = currMax;
-                }
-
-            }
+        for (int i = 0; i < size; i++)
+        {
+              max_ending_here = Math.max(max_ending_here + a[i], a[i]);
+              max_so_far = Math.max(max_so_far, max_ending_here);
         }
-        System.out.println("Max sub array -> " + maxSubArray);
-        System.out.println(HM);
+
+        System.out.println(max_so_far);
+    }
+
+    public static void main(String[] args) {
+        reKadane();
     }
 }
