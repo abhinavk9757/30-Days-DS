@@ -3,9 +3,9 @@ Practice DS - 30 days challenge
 
 Day2: (Arrays)
 
-# Set Matrix Zeros 
-# Pascal Triangle 
-# Next Permutation 
-# Inversion of Array (Using Merge Sort) 
-# Stock Buy and Sell 
-# Rotate Matrix  
+[X] Set Matrix Zeros 
+[X] Pascal Triangle 
+[] Next Permutation 
+[] Inversion of Array (Using Merge Sort) 
+[X] Stock Buy and Sell 
+[X] Rotate Matrix  
