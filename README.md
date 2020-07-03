@@ -8,7 +8,7 @@ Practice DS - 30 days challenge
 # Fork this repo, select a branch, write code and raise a PR
     Each branch will have the question in readme file
     
-    To View solutions submitted by other go to Pull Requests - https://github.com/abhinavk9757/30-Days-DS/pulls
-    and search for "base:[BRANCH_NAME]" e.g. "base:Day-1", "base:Day-2".
+    To View solutions submitted by other go to Pull Requests - `https://github.com/abhinavk9757/30-Days-DS/pulls`
+    and search for `base:[BRANCH_NAME]` e.g. `base:Day-1`, `base:Day-2`.
     
     Please make sure to mention language in your PR title.
