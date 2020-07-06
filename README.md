@@ -8,4 +8,6 @@ Day2: (Arrays)
 # [X] Next Permutation 
 # [] Inversion of Array (Using Merge Sort) 
 # [X] Stock Buy and Sell 
-# [X] Rotate Matrix  
+# [X] Rotate Matrix
+
+This is updated readme file
