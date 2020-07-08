@@ -2,9 +2,9 @@
 Practice DS - 30 days challenge
 
 Day3: (Math)
-# Excel Column Number 
-# Find n^x in log N 
-# Count trailing zeros in factorial of a number 
-# Find GCD in Log N 
-# Grid Unique Paths 
+#[x] Excel Column Number 
+#[x] Find n^x in log N 
+#[X] Count trailing zeros in factorial of a number 
+#[X] Find GCD in Log N 
+#[X] Grid Unique Paths 
 # Go through Puzzles from GFG (Search on own) 
