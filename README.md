@@ -6,5 +6,5 @@ Day3: (Math)
 #[x] Find n^x in log N 
 #[X] Count trailing zeros in factorial of a number 
 #[X] Find GCD in Log N 
-# Grid Unique Paths 
+#[X] Grid Unique Paths 
 # Go through Puzzles from GFG (Search on own) 
